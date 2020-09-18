@@ -1,3 +1,14 @@
+/*
+  Name: C Inline ASM (Call printf)
+  Copyright: NeoSecurityTeam
+  Author: Parcer0
+  Date: 20050509
+  Description: Call printf
+
+  Parcer0@NeoSecurityTeam:~$ gcc -masm=intel -m32 c.inline.asm.c -o c.inline.asm
+
+*/
+
 #include <stdio.h>
 
 #define _XOPEN_SOURCE
@@ -23,3 +34,4 @@ int __cdecl main()
     );
     return 0;
 }
+
