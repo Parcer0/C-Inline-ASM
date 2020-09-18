@@ -1,3 +1,3 @@
-Some inline ASM projects\n
-#define _XOPEN_SOURCE\n
+Some inline ASM projects
+#define _XOPEN_SOURCE
 #define _USE_GNU
